@@ -147,7 +147,6 @@ class SinglyLinkedList{
       } 
       
       if(!compare.next) {
-        
         return null;
       } else {
         compare = compare.next;
